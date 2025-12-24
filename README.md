@@ -26,185 +26,450 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
-ADMIN.HTML
+restaurant.html
 ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhaan Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #eef2f7;
+            color: #333;
+        }
+
+        header {
+            background: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background: #162447;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #162447;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
+
 <header>
-  <h1>Admin Dashboard</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Logout</a>
-  </nav>
-</header>
-
-<section class="dashboard">
-  <h2>Available Dishes</h2>
-  <ul>
-    <li>Grilled Chicken</li>
-    <li>Pasta Alfredo</li>
-    <li>Paneer Butter Masala</li>
-    <li>Veggie Pizza</li>
-    <li>Chicken Biryani</li>
-  </ul>
-
-  <h2>Add New Dish</h2>
-  <form>
-    <input type="text" placeholder="Dish Name">
-    <input type="text" placeholder="Price">
-    <button type="submit">Add Dish</button>
-  </form>
-
-  <h2>Employees on Shift</h2>
-  <ul>
-    <li>PRANAV- chief Chef</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222811.png">
-    <li>SARA - Waitress</li> <IMG SRC="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221640.png">
-    <li>SUZAN - Manager</li> <IMG SRC="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222914.png">
-    <li>JOHN - Chief Executive Chef</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221626.png">
-    <li>MANASA - Executive Chef</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 223022.png">
-    <li>PREETHI - Chief Chef</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222746.png">
-  </ul>
-</section>
-
-<footer>
-  <p>© 2025 FARHAAN  Restaurant</p>
-</footer>
-</body>
-</html>
-```
-CONTACT.HTML
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant - Contact</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header>
-  <h1> FARHAAN Restaurant</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Administration</a>
-  </nav>
-</header>
-
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>📍 5/453 -1,Noel street, VELLORE</p>
-  <p>📞 +91 6369537112</p>
-  <p>📧 EMAIL : sbrest1902@gmail.com</p>
-  <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 223819.png">
-</section>
-
-<footer>
-  <p>© 2025 FARHAAN Restaurant</p>
-</footer>
-</body>
-</html>
-```
-INDEX.HTML
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-5">
-  <title>Restaurant - Menu</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header>
-  <h1>FARHAAN Restaurant</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
-    <a href="admin.html">Administration</a>
-  </nav>
-</header>
-
-<section class="menu">
-  <h2>Our Menu</h2>
-  <ul>
-    <li>Grilled Chicken - 320</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222746.png"> <p>Grilled chicken is chicken cooked over direct heat on a grill, resulting in a seared, charred exterior and a moist interior. It is often seasoned with herbs, spices, or marinades before cooking, creating a flavorful dish that can be served as a main course, side dish, or appetizer. Grilled chicken is a versatile and popular dish known for being a good source of lean protein.  </p>
-    <li>Pasta Alfredo - 450</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222811.png"> <p>The Alfredo Pasta is an Italian pasta dish made using fresh pasta, vegetables, chicken pieces combined with butter, cream and cheese. As the cheese melts, it results in a creamy, rich cheese sauce that coats the pasta. It is without a doubt one of the most delicious and simple dishes to prepare at home.</p>
-    <li>Paneer Butter Masala - 250</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222850.png"> <p>Paneer butter masala is a rich and creamy North Indian curry featuring tender cubes of paneer (Indian cottage cheese) simmered in a silky tomato and cashew-based sauce. It is known for its luxurious texture and harmonious blend of flavors, making it a favorite dish in Indian restaurants and homes worldwide</p>
-    <li>Veggie Pizza - 320</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222914.png"> <p>Pizza is a popular Italian dish consisting of a flattened bread dough base topped with tomato sauce and cheese, often with additional ingredients like vegetables and meats, then baked at a high temperature. The concept is a flat, open-faced baked pie that is customizable with a wide variety of toppings and sauces, resulting in diverse flavors and textures.  </p>
-    <li>Chicken Biryani - 280</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222936.png"> <p>Chicken Biryani is a flavorful one-pot dish originating from the Indian subcontinent, made by layering marinated chicken with aromatic basmati rice, spices, and sometimes vegetables like potatoes, then slow-cooking it using the dum pukht ("steam-cooked") method in a sealed pot. The chicken is marinated in yogurt, ginger-garlic paste, and a complex blend of whole and ground spices, infusing it with rich flavors and ensuring tenderness.</p>
-    <li>Caesar Salad - 320</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 222954.png"> <p>A Caesar salad (also spelled Cesar, César and Cesare), also known as Caesar's salad, is a green salad of romaine lettuce and croutons dressed with lemon juice (or lime juice), olive oil, eggs, Worcestershire sauce, anchovies, garlic, Dijon mustard, Parmesan and black pepper.</p>
-    <li>Seafood Platter - 800</li> <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 223022.png"> <p>The classic seafood platter is a true crowd-pleaser. It typically includes an array of freshly shucked oysters, succulent steamed or chilled shrimp, tender crab legs, and a selection of dipping sauces such as tartar sauce, cocktail sauce, and mignonette</p>
-    
-  </ul>
-</section>
-
-<footer>
-  <p>© 2025 SB Restaurant</p>
-</footer>
-</body>
-</html>
-```
-MENU.HTML 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant - Home</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
     <h1>FARHAAN RESTAURANT</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="contact.html">Contact</a>
-      <a href="admin.html">Administration</a>
-    </nav>
-  </header>
+    <p>Authentic Taste • Pure Tradition</p>
+</header>
 
-  <section class="hero">
-    <h2>Welcome to FARHAAN Restaurant</h2>
-    <p>Enjoy the finest dishes made with love "Your table is calling"</p>
-  </section>
+<nav>
+    <a href="restaurant.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="chef.html">Chefs</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-  <section class="dishes">
-    <h2>Our Special Dishes</h2>
-    <div class="dish-grid">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221459.png" alt="Dish 1">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221544.png" alt="Dish 2">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221608.png" alt="Dish 3">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221626.png" alt="Dish 4">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221640.png" alt="Dish 5">
-      <img src="c:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-12-18 221820.png" alt="Dish 6">
+<div class="container">
+    <div class="hero">
+        <img src="restaurant.jpg" alt="Restaurant">
     </div>
-  </section>
 
-  <footer>
-    <p>© 2025 FARHAAN Restaurant</p>
-  </footer>
+    <div class="content">
+        <h2>Welcome to Farhaan Restaurant</h2>
+        <p>
+            Farhaan Restaurant brings you the rich flavors of Indian cuisine made with
+            fresh ingredients and traditional recipes. Our chefs prepare every dish
+            with passion and care.
+            <br><br>
+            From spicy curries to flavorful biryanis, we offer a dining experience
+            that reflects India’s diverse food culture.
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Farhaan Restaurant</p>
+</footer>
+
+</body>
+</html>
+```
+menu.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Farhaan Restaurant - Menu</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+}
+
+header {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: #162447;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.item {
+    background: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>FARHAAN RESTAURANT</h1>
+<p>Indian Special Menu</p>
+</header>
+
+<nav>
+<a href="restaurant.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="chef.html">Chefs</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+<div class="menu-grid">
+
+<div class="item"><img src="Chicken Biryani.jpg"><h3>Chicken Biryani</h3></div>
+<div class="item"><img src="Butter Chicken.jpg"><h3>Butter Chicken</h3></div>
+<div class="item"><img src="Paneer Tikka.jpg"><h3>Paneer Tikka</h3></div>
+<div class="item"><img src="Masala Dosa.jpg"><h3>Masala Dosa</h3></div>
+
+<div class="item"><img src="Butter Naan.jpg"><h3>Butter Naan</h3></div>
+<div class="item"><img src="Chole Bhature.jpg"><h3>Chole Bhature</h3></div>
+<div class="item"><img src="Idli & Sambar.jpg"><h3>Idli & Sambar</h3></div>
+<div class="item"><img src="Tandoori Chicken.jpg"><h3>Tandoori Chicken</h3></div>
+
+<div class="item"><img src="Gulab Jamun.jpg"><h3>Gulab Jamun</h3></div>
+<div class="item"><img src="Rasmalai.jpg"><h3>Rasmalai</h3></div>
+<div class="item"><img src="Filter Coffee.jpg"><h3>Filter Coffee</h3></div>
+<div class="item"><img src="Sweet Lassi.jpg"><h3>Sweet Lassi</h3></div>
+
+</div>
+</div>
+
+<footer style="background:#162447;color:white;text-align:center;padding:10px;">
+&copy; 2025 Farhaan Restaurant
+</footer>
+
+</body>
+</html>
+```
+chef.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Farhaan Restaurant - Our Chefs</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #eef2f7;
+    margin: 0;
+}
+
+header {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: #162447;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card img {
+    width: 100%;
+    max-width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>OUR CHEFS</h1>
+<p>The heart of our kitchen</p>
+</header>
+
+<nav>
+<a href="restaurant.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="chef.html">Chefs</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+<div class="grid">
+
+<div class="card"><img src="Screenshot 2025-12-24 161314.png"><h3>Chef Arjun</h3><p>Head Chef</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161321.png"><h3>Chef Rahman</h3><p>Biryani Specialist</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Meena</h3><p>South Indian Expert</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161326.png"><h3>Chef Rakesh</h3><p>Tandoor Chef</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Ayesha</h3><p>Dessert Specialist</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Sanjay</h3><p>North Indian Cuisine</p></div>
+
+</div>
+</div>
+
+<footer style="background:#162447;color:white;text-align:center;padding:10px;">
+&copy; 2025 Farhaan Restaurant
+</footer>
+
+</body>
+</html>
+```
+contact.html
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhaan Restaurant - Contact</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef2f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        header h1 {
+            margin: 5px 0;
+            font-size: 22px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        nav {
+            background-color: #162447;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 25px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .container h2 {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin: 12px 0;
+        }
+
+        footer {
+            background-color: #162447;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FARHAAN RESTAURANT</h1>
+    <p>Reach out to us for reservations and enquiries</p>
+</header>
+
+<nav>
+    <a href="restaurant.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="chef.html">Chefs</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Contact Information</h2>
+
+    <div class="contact-info">
+        <p><strong>Address:</strong><br>
+            21, MG Road,<br>
+            Indiranagar, Bengaluru – 560038,<br>
+            Karnataka, India
+        </p>
+
+        <p><strong>Email:</strong><br>
+            contact@farhaanrestaurant.com
+        </p>
+
+        <p><strong>Phone:</strong><br>
+            +91 91234 56789
+        </p>
+
+        <p><strong>Business Hours:</strong><br>
+            Monday to Sunday – 11:00 AM to 10:30 PM
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Farhaan Restaurant</p>
+</footer>
+
 </body>
 </html>
 ```
 # OUTPUT:
-![WhatsApp Image 2025-12-19 at 20 13 55_bd722d4b](https://github.com/user-attachments/assets/8cd57310-9ec1-44ed-8ffb-a0fb684627e3)
-![WhatsApp Image 2025-12-19 at 20 13 55_14bcd75d](https://github.com/user-attachments/assets/c17456e8-69ad-4e54-869a-b30d25a580d0)
-![WhatsApp Image 2025-12-19 at 20 13 56_9a5e2fdf](https://github.com/user-attachments/assets/7f4c07a6-b976-4c97-908c-b18fe2814ca7)
-![WhatsApp Image 2025-12-19 at 20 14 03_cbc4646d](https://github.com/user-attachments/assets/09c4eb66-717d-4302-904c-7c17f3d7e957)
-![WhatsApp Image 2025-12-19 at 20 13 58_11e58d4b](https://github.com/user-attachments/assets/154e1da7-a599-48ff-8435-1918b13ce495)
-![WhatsApp Image 2025-12-19 at 20 13 58_028e1fc0](https://github.com/user-attachments/assets/1631598b-4e65-4124-9def-630d6c92049a)
-
+<img width="1920" height="1016" alt="screencapture-file-D-RESTARAUNT-WEB-restaurant-html-2025-12-24-16_22_13" src="https://github.com/user-attachments/assets/44aa4ffd-f1de-44f1-bbc0-e0b3864f1957" />
+<img width="1920" height="1236" alt="screencapture-file-D-RESTARAUNT-WEB-menu-html-2025-12-24-16_22_33" src="https://github.com/user-attachments/assets/3425e417-3d4c-4f78-abd1-a6d3e75367da" />
+<img width="1920" height="1442" alt="screencapture-file-D-RESTARAUNT-WEB-chef-html-2025-12-24-16_22_46" src="https://github.com/user-attachments/assets/b26aec0a-54af-4a8c-9d9c-c7fe45f705c6" />
+<img width="1920" height="912" alt="screencapture-file-D-RESTARAUNT-WEB-contact-html-2025-12-24-16_23_02" src="https://github.com/user-attachments/assets/dd0d1b81-fe38-4dfb-b19b-b0182d9cc4a1" />
 
 
 
