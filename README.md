@@ -322,7 +322,7 @@ nav a {
 <div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Meena</h3><p>South Indian Expert</p></div>
 <div class="card"><img src="Screenshot 2025-12-24 161326.png"><h3>Chef Rakesh</h3><p>Tandoor Chef</p></div>
 <div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Ayesha</h3><p>Dessert Specialist</p></div>
-<div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Sanjay</h3><p>North Indian Cuisine</p></div>
+<div class="card"><img src="Screenshot 2025-12-24 161347.png"><h3>Chef Sherina</h3><p>North Indian Cuisine</p></div>
 
 </div>
 </div>
@@ -468,7 +468,7 @@ contact.html
 # OUTPUT:
 <img width="1920" height="1016" alt="screencapture-file-D-RESTARAUNT-WEB-restaurant-html-2025-12-24-16_22_13" src="https://github.com/user-attachments/assets/44aa4ffd-f1de-44f1-bbc0-e0b3864f1957" />
 <img width="1920" height="1236" alt="screencapture-file-D-RESTARAUNT-WEB-menu-html-2025-12-24-16_22_33" src="https://github.com/user-attachments/assets/3425e417-3d4c-4f78-abd1-a6d3e75367da" />
-<img width="1920" height="1442" alt="screencapture-file-D-RESTARAUNT-WEB-chef-html-2025-12-24-16_22_46" src="https://github.com/user-attachments/assets/b26aec0a-54af-4a8c-9d9c-c7fe45f705c6" />
+<img width="1920" height="1081" alt="screencapture-127-0-0-1-5500-chef-html-2025-12-26-10_16_06" src="https://github.com/user-attachments/assets/e828c99f-e345-4e65-a0ff-97c47489640f" />
 <img width="1920" height="912" alt="screencapture-file-D-RESTARAUNT-WEB-contact-html-2025-12-24-16_23_02" src="https://github.com/user-attachments/assets/dd0d1b81-fe38-4dfb-b19b-b0182d9cc4a1" />
 
 
